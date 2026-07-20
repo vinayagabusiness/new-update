@@ -290,6 +290,15 @@ body {
   color: var(--gold);
   border: 1px solid var(--gold);
 }
+.hero-buttons .btn-gallery {
+  background: linear-gradient(135deg, #ffffff, #f2ede0, #ffffff);
+  color: var(--black);
+  border: 1px solid #ffffff;
+}
+.hero-buttons .btn-gallery:hover {
+  background: linear-gradient(135deg, #f2ede0, #ffffff, #f2ede0);
+  color: var(--black);
+}
 .btn-primary {
   display: inline-block;
   background: linear-gradient(135deg, var(--gold-light), var(--gold), var(--gold-dark));
