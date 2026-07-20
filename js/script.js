@@ -368,9 +368,6 @@ function buildHeroSlides(container, srcs){
 
   if (srcs.length <= 1) return; // nothing to cycle
 
-  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (reduceMotion) return; // keep the first slide static
-
   let current = 0;
   setInterval(() => {
     const slides = container.querySelectorAll('.hero-bg-slide');
