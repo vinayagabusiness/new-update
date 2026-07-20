@@ -1,4 +1,4 @@
-const PREVIEW_PHOTO_OVERRIDES = {"handmade/2": "images/gallery-preview-1.jpg", "handmade/6": "images/gallery-preview-2.jpg", "cnc/2": "images/gallery-preview-1.jpg", "cnc/6": "images/gallery-preview-2.jpg", "kada/2": "images/gallery-preview-1.jpg", "kada/6": "images/gallery-preview-2.jpg"};
+const PREVIEW_PHOTO_OVERRIDES = {};
 // ── GALLERY DATA & RENDERING (7 categories, auto-detects uploaded photos) ──
 //
 // HOW TO ADD PHOTOS: just upload them into the matching GitHub folder —
@@ -536,4 +536,3 @@ function handleSubmit(){
     }, 3200);
   }, 500);
 }
-
